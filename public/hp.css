@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+#head{
+    width: 100%;
+    height: 100vh;
+    background-image:url(my_image/e.jpg) ;
+    background-size: cover;
+    background-position: center;
+    }
+
+    .ss{
+        width: 130px;
+        height: 130px;
+        cursor: pointer;
+        border-radius: 50%;
+        margin-top: 2%;
+    }
+    .ss:hover{
+        opacity: 0.7;
+    }
+    .container{
+        padding: 5px 5%;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    nav ul li {
+        display: inline-block;
+        padding: 15px 15px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: aqua; 
+        font-size: 20px;
+        transition: transform;
+        display: inline-block;
+        font-family: inherit;
+
+
+    }
+    nav ul li a:hover{
+        color: red;
+        transform: translateY(-5px);
+    }
+
+.gg{
+    margin-top: 7%;
+    font-size: 30px;
+    margin-left: 8%;
+}
+.gg p {
+    color: aqua;
+    margin-bottom: 5%;
+}
+.gg h1 span{
+    color: rgb(243, 24, 24);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gg h1 {
+    color: aqua;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+#about{
+    padding: 60px 0px;    
+}
+.row{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cl1{
+    flex-basis: 36%;
+}
+.cl1 img{
+    width: 100%;
+    border-radius: 15px;
+    transition: background 0.7s , transform 0.7s;
+    cursor: pointer;
+}
+.cl1 img:hover{
+    transform: translateY(-15px);
+    opacity: 0.7;
+}
+.cl2{
+    flex-basis: 60%;
+}
+.cl2 h1{
+    color: rgb(16, 216, 216);
+    font-family: sans-serif;
+    font-size: 48px;
+    
+}
+.ui{
+    
+    margin-top: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: white;
+    line-height: 1.5;
+    border-radius: 10px;
+    margin: 20px auto;
+    text-align: justify;
+}
+.sabout{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tab{
+    color: #ff004f;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    
+}
+.tab::after{
+    content: '';
+    width: 0;
+    position: absolute;
+    height: 3px;
+    transition: 0.5s;
+    left: 0;
+    bottom: -8px;
+    background: aqua ;
+}
+.tab.first::after{
+    width: 100%;
+}
+.labout{
+    margin-top: 6%;
+    margin-left: 10%;
+    display: none;
+}
+.labout.tabn{
+    display: block;
+}
+.labout ul li{
+    margin: 15px 0;
+    list-style: none;
+}
+.labout ul li p span {
+    color: rgb(21, 249, 44);
+    font-size: 18px;
+    font-family: cursive;
+    display: block; 
+    
+}
+.labout ul li p {
+    color: rgb(228, 219, 219);
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+#service{
+    padding: 40px 0;
+}
+.subtitle{
+    color: rgb(16, 216, 216);
+    font-family: sans-serif;
+    font-size: 48px;
+    
+}
+
+.service_list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(250px  , 1fr));
+    grid-gap: 70px;
+    margin-top: 50px;
+}
+.service_list i{
+    color: white;
+    margin-bottom: 7%;
+    font-size: 30px;
+}
+
+.h1{
+    color: hsl(341, 100%, 50%);
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.p{
+    color: white;
+    font-size: 15px;
+    margin-top: 5%;
+    font-family: cursive;
+}
+.service_list div {
+    background: #262626;
+    padding: 45px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: background 0.7s , transform 0.7s;
+}
+.service_list div:hover{
+    background: #0db2d7;
+    transform: translateY(-10px);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#contact{
+    padding: 60px 0;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left h1{
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-bottom: 10%;
+}
+.contact-left p{
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 3%;
+}
+.contact-left p i {
+    color: #ff004f;
+    margin-right: 10px;
+}
+
+.social-icon{
+    margin-top: 35px;
+}
+.social-icon a{
+    margin-right: 15px;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform;
+}
+.social-icon a:hover{
+    color: aqua;
+    transform: translateY(-6px);
+}
+.button{
+    width: 180px;
+    height: 50px;
+    background-color: #ff004f;
+    color: aliceblue;
+    margin-top: 10%;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 2px;
+    border-color: #ff004f;
+    border-style: solid;
+    font-size: 18px;
+}
+
+
+
+.buttonn{
+    width: 180px;
+    height: 50px;
+    background-color: rgba(28, 200, 28, 0.947);
+    color: aliceblue;
+    margin-top: 4%;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 2px;
+    border-color: rgba(28, 200, 28, 0.947);
+    border-style: solid;
+    font-size: 15px;
+}
+
+
+
+
+button:hover{
+    background-color: black;
+}
+
+.contact-right form{
+    width: 100%;
+}
+form input , form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 2px;
+   
+
+}
+
+
+.vb{
+    width: 180px;
+    height: 50px;
+    background-color: rgba(28, 200, 28, 0.947);
+    color: aliceblue;
+    margin-top: 4%;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 2px;
+    border-color: rgba(28, 200, 28, 0.947);
+    border-style: solid;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.logout-container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 40px;
+    text-align: center;
+}
+.logout-container h1 {
+    color: #d9534f;
+}
+
+/* Logout Button Styles */
+.logout-button {
+    background-color: #d9534f; /* Bootstrap's danger color */
+    color: white;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 4%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.logout-button:hover {
+    background-color: #c9302c; /* Darker shade on hover */
+    transform: scale(1.05);
+}
+
+.logout-button:focus {
+    outline: none; /* Remove outline when focused */
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hp.css">
+    <script src="./hp.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  
+    <div id="head">
+        <div class="container">
+            <nav>
+                <img class="ss" src="my_image/photo_3_2024-10-01_05-49-56.jpg" alt="">
+                <ul>
+                    <li> <a href="#head"> Home </a></li>
+                    <li> <a href="#about"> About Me </a></li>
+                    <li> <a href="#service">My Services </a> </li>
+                    <li> <a href="#contact"> Contact Me </a></li>                   
+                </ul>
+            </nav>
+            <div class="gg">
+                <p>Full Stack Developer</p>
+                <h1>Hi, i'm <span>Abreham</span>  <br> software engineering student at AAiT</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="cl1">
+                    <img src="my_image/photo_1_2024-10-01_05-49-55.jpg" alt="">
+                </div>
+                <div class="cl2">
+                    <h1>About Me</h1>
+                    <p class="ui">
+                        I’m a full stack web developer and a software engineering student at
+                        Addis Ababa University. I enjoy building websites and web applications,
+                        working with both front-end and back-end technologies. Right now, I’m
+                        focused on learning Node.js to improve my web development skills.
+                        In my studies, I’m learning the basics of software engineering, including how to design
+                        systems and write clean code. I like applying what I learn in class to real projects, 
+                        which helps me grow as a developer. My goal is to keep learning and building things 
+                        that solve real problems.
+                    </p>
+
+                    <div class="sabout">
+                        <p class="tab first" onclick="opentab('skill')">Skill</p>
+                        <p class="tab"  onclick="opentab('Experience')">Experience</p>
+                        <p class="tab"  onclick="opentab('Education')">Education</p>
+                    </div>
+
+                    <div class="labout tabn" id="skill">
+                        <ul>
+                            <li>
+                                <p><span>Frontend Development:</span> <br>  My frontend skills include HTML, CSS, and JavaScript, the core building blocks of web development. HTML structures the content, CSS provides styling, and JavaScript adds interactivity to create dynamic websites. I also use React.js, a popular JavaScript library, which simplifies building user interfaces through reusable components for efficient, responsive designs. </p>
+                                <p><span> Backend Development:</span> <br>My backend skills include Node.js, Express.js, RESTful API Development, and MongoDB. Node.js allows me to build scalable server-side applications, while Express.js simplifies web and mobile development. I specialize in creating RESTful APIs for efficient communication between systems. MongoDB, a NoSQL database, helps me manage large datasets with flexibility and speed.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="labout"  id="Experience">
+                        <ul>
+                            <li>
+                                <p><span>Full Stack Web Developer</span> <br> 
+                                    I have full stack experience in developing and deploying web applications with dynamic frontend and backend functionalities. My work includes creating user-friendly interfaces using HTML, CSS, and JavaScript, as well as building scalable server-side applications with Node.js and Express.js. I have successfully worked on various projects, particularly in e-commerce and web services, focusing on enhancing user experience and performance.
+                                </p>
+                                <p><span> Software Projects</span> <br>
+                                    I have built several applications utilizing Node.js and React.js as part of my coursework, which has provided me with hands-on experience in full stack development. I am skilled in creating REST APIs that enable seamless communication between the frontend and backend. Additionally, I have experience in handling databases, ensuring data is stored efficiently and securely. This practical knowledge allows me to develop robust applications that meet various user needs and requirements.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="labout" id="Education">
+                        <ul>
+                            <li>
+                                <p><span>Addis Ababa University Institute of Technology</span> <br>
+                                    I am currently pursuing a Bachelor of Science in Software Engineering at Addis Ababa Institute of Technology (AAiT). I joined the program in 2021, and I am on track to graduate in 2026. My education has provided me with a solid foundation in software development principles, programming languages, and system design. Throughout my studies, I have engaged in various projects that enhance my practical skills and technical knowledge. Additionally, I have gained valuable experience in both frontend and backend development. 
+                                </p> 
+                            </li>
+                        </ul>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="service">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="service_list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h1 class="h1">UI/UX design</h1>
+                    <p class="p">I specialize in designing intuitive and engaging user interfaces for websites and mobile applications. My goal is to create a seamless experience for users by ensuring that every element is easy to understand and navigate. From wireframes to final designs, I focus on creating a balance between functionality and aesthetics, making sure the designs not only look great but also enhance the user experience.</p>
+                    
+                </div>
+                
+                <div>
+                    <i class="fa-solid fa-cubes"></i>
+                    <h1 class="h1">Web Development</h1>
+                    <p class="p">I offer professional web development services, I work on both front-end (what users see) and back-end (behind-the-scenes processes), ensuring the website is responsive, fast, and secure. Whether you need a personal blog, an e-commerce platform, or a complex web application, I can develop it to meet your unique needs while following modern web standards and practices.</p>
+                    
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h1 class="h1">Data Managment and Admistration</h1>
+                    <p class="p">Managing data is crucial for any business or project. I provide data administration and management services that include organizing, storing, and securing data in a way that makes it easy to access and analyze. From database setup to regular maintenance, I ensure that your data is handled with care and stays protected while being efficiently managed for smooth operations.</p>
+                    
+                </div>               
+            </div>    
+        </div>
+    </div>
+
+
+
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <p> <i class="fa-brands fa-telegram"></i> @wskaf</p>
+                    <p> <i class="fa-solid fa-phone"></i> 0920052836</p>
+                    <div class="social-icon">
+                        <a href="">   <i class="fa-brands fa-facebook"></i>    </a>
+                        <a href="">  <i class="fa-brands fa-square-instagram"></i>   </a>
+                        <a href="https://www.linkedin.com/feed/">  <i class="fa-brands fa-linkedin"></i>   </a>
+                        <a href="https://x.com/home">  <i class="fa-brands fa-twitter"></i>    </a>
+                    </div>
+                    <a href=""  download > <button class="button">  Download CV </button>  </a>
+
+                </div>
+
+                <div class="contact-right">
+                    <form action="http://localhost:5000/contact" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="vb">Send Message</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="logout-container">
+        <h1>Are you sure you want to log out?</h1>
+        <form action="/logout" method="GET">
+            <button type="submit" class="logout-button">Log out</button>
+        </form>
+    </div>
+    
+
+</body>
+</html>
